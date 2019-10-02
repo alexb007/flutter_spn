@@ -1,0 +1,69 @@
+name: spn_flutter
+description: Smart Pedestrian Nets
+version: 0.0.2+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^0.5.3+4
+  flutter_svg: ^0.14.0
+  mapbox_gl:
+    git: git://github.com/alexb007/flutter-mapbox-gl
+  http: any
+  cupertino_icons: ^0.1.2
+  location: ^2.3.5
+  intl: ^0.16.0
+  flutter_swiper: ^1.1.6
+  floor: ^0.8.0
+  sqflite: any
+  progress_dialog: ^1.2.0
+  groovin_widgets: ^1.4.2
+  provider: ^3.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: ^0.8.0
+  build_runner: ^1.6.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/splash.svg
+    - assets/images/welcome1.png
+    - assets/images/welcome2.png
+    - assets/images/welcome3.png
+    - assets/images/welcome4.png
+    - assets/images/male.svg
+    - assets/images/female.svg
+    - assets/images/incidentonmap.png
+    - assets/category/green_zone.png
+    - assets/category/green_zone_sl.png
+    - assets/category/playground.png
+    - assets/category/playground_sl.png
+    - assets/category/street_furniture.png
+    - assets/category/street_furniture_sl.png
+    - assets/category/transport.png
+    - assets/category/transport_sl.png
+    - assets/category/culture_events.png
+    - assets/category/culture_events_sl.png
+    - assets/symbols/2.0x/blue.png
+    - assets/symbols/3.0x/blue.png
+    - assets/symbols/blue.png
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto/Roboto-Regular.ttf
+        - asset: fonts/roboto/Roboto-RegularItalic.ttf
+          style: italic
+        - asset: fonts/roboto/Roboto-Bold.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,19 @@
+<svg fill="none" height="60" viewBox="0 0 60 60" width="60" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="paint0_linear" x1="-22" x2="30" y1="27"
+            y2="79">
+            <stop stop-color="#DFDFDF" />
+            <stop offset="1" stop-color="#A6A5A5" />
+        </linearGradient>
+    </defs>
+    <path clip-rule="evenodd"
+        d="M30 53C44.3594 53 56 41.3594 56 27C56 12.6406 44.3594 1 30 1C15.6406 1 4 12.6406 4 27C4 41.3594 15.6406 53 30 53Z"
+        fill="url(#paint0_linear)" fill-rule="evenodd" stroke="#979797" stroke-width="0.2" />
+    <path
+        d="M22.5 26C23.3284 26 24 25.3284 24 24.5C24 23.6716 23.3284 23 22.5 23C21.6716 23 21 23.6716 21 24.5C21 25.3284 21.6716 26 22.5 26Z"
+        fill="white" />
+    <path
+        d="M40.17 24.17C40.17 20.26 36.98 17.11 33.06 17.17C29.23 17.23 26.07 20.54 26.18 24.36C26.27 27.74 28.76 30.52 32.01 31.06V35H24V32H24.5C24.78 32 25 31.78 25 31.5V28C25 27.45 24.55 27 24 27H21C20.45 27 20 27.45 20 28V31.5C20 31.78 20.22 32 20.5 32H21V36C21 36.55 21.45 37 22 37H36C36.55 37 37 36.55 37 36C37 35.45 36.55 35 36 35H34V31.12C37.47 30.71 40.17 27.76 40.17 24.17Z"
+        fill="white" />
+    <rect fill="#D8D8D8" height="23" opacity="0.01" stroke="#979797" width="23" x="18.5" y="15.5" />
+</svg>
